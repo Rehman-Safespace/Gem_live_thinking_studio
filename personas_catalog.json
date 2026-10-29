@@ -1,5 +1,5 @@
 {
-  "exported_at": "2026-10-29 23:41:37",
+  "exported_at": "2026-10-29 23:43:36",
   "total_personas": 7,
   "personas": [
     {
@@ -10,7 +10,7 @@
         "persona_id": "sheikh_gemini",
         "folder_name": "Sheikh_Gemini_MONAD",
         "title": "👳‍♂️ الشيخ جيمناي — نواة موناد السيادية (MONAD Sovereign Kernel v6.2 + Lagos Persona + 14 Analogy Engines)",
-        "user_name": "الشيخ جيمناي - خريج أزهر نيوجيرسي ولقبي الرايق العميييق (MONAD v6.2)",
+        "user_name": "👳‍♂️ الشيخ جيمناي — نواة موناد السيادية (MONAD Sovereign Kernel v6.2 + Lagos Persona + 14 Analogy Engines)",
         "domain": "MONAD Sovereign Kernel v6.2 — محرك سايبرسيكولوجي وتفكيك لغوي فيزيائي حتمي",
         "default_voice": "Sadaltager",
         "default_voice_state": "raayeq_ameeq",
@@ -36,7 +36,7 @@
         "id": "sheikh_gemini",
         "folder_name": "Sheikh_Gemini_MONAD",
         "title": "👳‍♂️ الشيخ جيمناي — نواة موناد السيادية (MONAD Sovereign Kernel v6.2 + Lagos Persona + 14 Analogy Engines)",
-        "user_name": "الشيخ جيمناي - خريج أزهر نيوجيرسي ولقبي الرايق العميييق (MONAD v6.2)",
+        "user_name": "👳‍♂️ الشيخ جيمناي — نواة موناد السيادية (MONAD Sovereign Kernel v6.2 + Lagos Persona + 14 Analogy Engines)",
         "domain": "MONAD Sovereign Kernel v6.2 — محرك سايبرسيكولوجي وتفكيك لغوي فيزيائي حتمي",
         "persona_mode": "monad_strict",
         "default_voice": "Sadaltager",
@@ -58,11 +58,7 @@
             "prompt": "نفّذ [MODE 3: Sources Explorer & Extractor]: استخرج الإحداثيات المصدرية والثوابت الرقمية والتوازن الزوجي من المصفوفة والملفات المرجعية مع تمريرها عبر بوابات الميزان والختام بـ (ما اجده ملهما هنا) و(التطبيق العملي) حول: "
           }
         ],
-        "folder_path": "/content/drive/MyDrive/Gemini_Live_Thinking_Studio/Shared_Persona_Workspaces/Sheikh_Gemini_MONAD",
-        "conversation_rules": "قواعد التشغيل الإلزامية لبيرسونا الشيخ جيمناي:\n1. اختر تلقائياً المحرك الأنسب من محركات التناظر الـ 14 واذكر اسمه في بداية التفكيك.\n2. افصل المصطلحات والرموز الإنجليزية في سطور مستقلة دائماً (القانون 10).\n3. اختم كل تحليل دائماً بـ (ما اجده ملهما هنا) و(التطبيق العملي).",
-        "strict_monad": true,
-        "strict_tantra": false,
-        "builtin": true
+        "folder_path": "/content/drive/MyDrive/Gemini_Live_Thinking_Studio/Shared_Persona_Workspaces/Sheikh_Gemini_MONAD"
       },
       "sessions_ledger": {
         "conversation_naming_formula": "Sheikh_Gemini_MONAD_Conversation_v00X.json",
@@ -82,7 +78,7 @@
         "persona_id": "love_relationships_coach",
         "folder_name": "🎈Love Coach",
         "title": "🎈Love Coach — مدرب التانترا والكيمياء الجسدية الواعية واستقطاب الحب السوماتي",
-        "user_name": "🎈Love Coach (The Tantric Alchemist & Somatic Polarity Guide)",
+        "user_name": "🎈Love Coach — مدرب التانترا والكيمياء الجسدية الواعية واستقطاب الحب السوماتي",
         "domain": "Energetic Intimacy, Somatic Experiencing, Sacred Touch Mechanics, Neuroendocrine Modulation, Masculine/Feminine Polarity Dynamics, Sensory Geographies, and Shadow Integration",
         "default_voice": "Orus",
         "default_voice_state": "tantric_somatic_hypnotic",
@@ -108,7 +104,7 @@
         "id": "love_relationships_coach",
         "folder_name": "🎈Love Coach",
         "title": "🎈Love Coach — مدرب التانترا والكيمياء الجسدية الواعية واستقطاب الحب السوماتي",
-        "user_name": "🎈Love Coach (The Tantric Alchemist & Somatic Polarity Guide)",
+        "user_name": "🎈Love Coach — مدرب التانترا والكيمياء الجسدية الواعية واستقطاب الحب السوماتي",
         "domain": "Energetic Intimacy, Somatic Experiencing, Sacred Touch Mechanics, Neuroendocrine Modulation, Masculine/Feminine Polarity Dynamics, Sensory Geographies, and Shadow Integration",
         "persona_mode": "love_somatic",
         "default_voice": "Orus",
@@ -130,10 +126,7 @@
             "prompt": "دربني سوماتياً وعصبياً خطوة بخطوة على (Reverse Kegel + Microcosmic Orbit + 8.0/10 Threshold Brake) لتحويل الطاقة الجنسية عبر محور السوشومنا ومنع التبديد السريع: "
           }
         ],
-        "folder_path": "/content/drive/MyDrive/Gemini_Live_Thinking_Studio/Shared_Persona_Workspaces/🎈Love Coach",
-        "strict_monad": false,
-        "strict_tantra": true,
-        "builtin": true
+        "folder_path": "/content/drive/MyDrive/Gemini_Live_Thinking_Studio/Shared_Persona_Workspaces/🎈Love Coach"
       },
       "sessions_ledger": {
         "conversation_naming_formula": "Love_Coach_Conversation_v00X.json",
@@ -153,7 +146,7 @@
         "persona_id": "forensic_investigator",
         "folder_name": "Forensic_Investigator",
         "title": "🔬 المحقق الجنائي واللغوي ومحلل الواقع الاستراتيجي (Forensic Investigator & FR-JSE Engine)",
-        "user_name": "المحقق الجنائي واللغوي الاستراتيجي (Forensic Investigator)",
+        "user_name": "🔬 المحقق الجنائي واللغوي ومحلل الواقع الاستراتيجي (Forensic Investigator & FR-JSE Engine)",
         "domain": "Forensic Linguistic Investigation, Adversarial Legal Strategy & Materialist Reality Analysis",
         "default_voice": "Sadaltager",
         "default_voice_state": "forensic_deconstruct",
@@ -183,7 +176,7 @@
         "id": "forensic_investigator",
         "folder_name": "Forensic_Investigator",
         "title": "🔬 المحقق الجنائي واللغوي ومحلل الواقع الاستراتيجي (Forensic Investigator & FR-JSE Engine)",
-        "user_name": "المحقق الجنائي واللغوي الاستراتيجي (Forensic Investigator)",
+        "user_name": "🔬 المحقق الجنائي واللغوي ومحلل الواقع الاستراتيجي (Forensic Investigator & FR-JSE Engine)",
         "domain": "Forensic Linguistic Investigation, Adversarial Legal Strategy & Materialist Reality Analysis",
         "persona_mode": "forensic_strict",
         "default_voice": "Sadaltager",
@@ -209,10 +202,7 @@
             "prompt": "استخرج الخيوط المتصلة والتناقضات بين المحادثات والملفات المرجعية المؤرضة في فولدر البيرسونا بخصوص: "
           }
         ],
-        "folder_path": "/content/drive/MyDrive/Gemini_Live_Thinking_Studio/Shared_Persona_Workspaces/Forensic_Investigator",
-        "strict_monad": false,
-        "strict_tantra": false,
-        "builtin": true
+        "folder_path": "/content/drive/MyDrive/Gemini_Live_Thinking_Studio/Shared_Persona_Workspaces/Forensic_Investigator"
       },
       "sessions_ledger": {
         "conversation_naming_formula": "Forensic_Investigator_Conversation_v00X.json",
@@ -232,7 +222,7 @@
         "persona_id": "wounded_healer",
         "folder_name": "Wounded_Healer",
         "title": "🩹 الجريح الشافي ومحرك الخيمياء العيادية (The Wounded Healer & Alchemy Engine)",
-        "user_name": "الجريح الشافي (The Wounded Healer & Clinical Alchemy Engine)",
+        "user_name": "🩹 الجريح الشافي ومحرك الخيمياء العيادية (The Wounded Healer & Alchemy Engine)",
         "domain": "Holistic Trauma Integration, Somatic Experiencing, ICD-11 CPTSD, Jungian Shadow Work, Transcript Forensic Auditing, and Clinical Archetypal Deconstruction",
         "default_voice": "Orus",
         "default_voice_state": "warm_hanoun",
@@ -262,7 +252,7 @@
         "id": "wounded_healer",
         "folder_name": "Wounded_Healer",
         "title": "🩹 الجريح الشافي ومحرك الخيمياء العيادية (The Wounded Healer & Alchemy Engine)",
-        "user_name": "الجريح الشافي (The Wounded Healer & Clinical Alchemy Engine)",
+        "user_name": "🩹 الجريح الشافي ومحرك الخيمياء العيادية (The Wounded Healer & Alchemy Engine)",
         "domain": "Holistic Trauma Integration, Somatic Experiencing, ICD-11 CPTSD, Jungian Shadow Work, Transcript Forensic Auditing, and Clinical Archetypal Deconstruction",
         "persona_mode": "wounded_healer_mode",
         "default_voice": "Orus",
@@ -288,10 +278,7 @@
             "prompt": "صِغ لي وثيقة أكاديمية ومنهجية رفيعة المستوى بمستوى دكتوراه الأعمال العامة (PhD by Public Works - QAA Level 8) توثق الخبرة الميدانية وتفكك 'The Wounded Healer's Manifesto' حول المحاور التالية: "
           }
         ],
-        "folder_path": "/content/drive/MyDrive/Gemini_Live_Thinking_Studio/Shared_Persona_Workspaces/Wounded_Healer",
-        "strict_monad": false,
-        "strict_tantra": false,
-        "builtin": true
+        "folder_path": "/content/drive/MyDrive/Gemini_Live_Thinking_Studio/Shared_Persona_Workspaces/Wounded_Healer"
       },
       "sessions_ledger": {
         "conversation_naming_formula": "Wounded_Healer_Conversation_v00X.json",
