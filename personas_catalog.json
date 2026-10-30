@@ -1,5 +1,7 @@
 {
-  "exported_at": "2026-10-29 23:50:35",
+  "exported_at": "2026-10-30 02:11:32",
+  "hub_folder_id": "12XEmEww_Im1BFB1qWVpSURcEoMfrky2J",
+  "owner_account": "safespace.ch@gmail.com",
   "total_personas": 7,
   "personas": [
     {
@@ -58,16 +60,33 @@
             "prompt": "نفّذ [MODE 3: Sources Explorer & Extractor]: استخرج الإحداثيات المصدرية والثوابت الرقمية والتوازن الزوجي من المصفوفة والملفات المرجعية مع تمريرها عبر بوابات الميزان والختام بـ (ما اجده ملهما هنا) و(التطبيق العملي) حول: "
           }
         ],
-        "folder_path": "/content/drive/MyDrive/Gemini_Live_Thinking_Studio/Shared_Persona_Workspaces/Sheikh_Gemini_MONAD"
+        "folder_path": "/content/drive/.shortcut-targets-by-id/12XEmEww_Im1BFB1qWVpSURcEoMfrky2J/Gemini_Live_Thinking_Studio/Shared_Persona_Workspaces/Sheikh_Gemini_MONAD"
       },
       "sessions_ledger": {
         "conversation_naming_formula": "Sheikh_Gemini_MONAD_Conversation_v00X.json",
         "last_session_slug": "Sheikh_Gemini_MONAD_Conversation",
-        "last_version_number": 0,
-        "next_version_tag": "v001",
-        "next_session_filename_preview": "Sheikh_Gemini_MONAD_Conversation_v001.json",
-        "total_sessions": 0,
-        "history": []
+        "last_version_number": 2,
+        "next_version_tag": "v003",
+        "next_session_filename_preview": "Sheikh_Gemini_MONAD_Conversation_v003.json",
+        "total_sessions": 2,
+        "history": [
+          {
+            "file_name": "Sheikh_Gemini_MONAD_Conversation_v002_20261030_005416.json",
+            "file_path": "/content/drive/.shortcut-targets-by-id/12XEmEww_Im1BFB1qWVpSURcEoMfrky2J/Gemini_Live_Thinking_Studio/Shared_Persona_Workspaces/Sheikh_Gemini_MONAD/Sheikh_Gemini_MONAD_Conversation_v002_20261030_005416.json",
+            "slug": "Sheikh_Gemini_MONAD_Conversation",
+            "version_num": 2,
+            "version_tag": "v002",
+            "updated_at": "2026-10-30 00:54:16"
+          },
+          {
+            "file_name": "Sheikh_Gemini_MONAD_Conversation_v001.json",
+            "file_path": "/content/drive/.shortcut-targets-by-id/12XEmEww_Im1BFB1qWVpSURcEoMfrky2J/Gemini_Live_Thinking_Studio/Shared_Persona_Workspaces/Sheikh_Gemini_MONAD/Sheikh_Gemini_MONAD_Conversation_v001.json",
+            "slug": "Sheikh_Gemini_MONAD_Conversation",
+            "version_num": 1,
+            "version_tag": "v001",
+            "updated_at": "2026-10-30 00:19:34"
+          }
+        ]
       }
     },
     {
@@ -126,7 +145,7 @@
             "prompt": "دربني سوماتياً وعصبياً خطوة بخطوة على (Reverse Kegel + Microcosmic Orbit + 8.0/10 Threshold Brake) لتحويل الطاقة الجنسية عبر محور السوشومنا ومنع التبديد السريع: "
           }
         ],
-        "folder_path": "/content/drive/MyDrive/Gemini_Live_Thinking_Studio/Shared_Persona_Workspaces/🎈Love Coach"
+        "folder_path": "/content/drive/.shortcut-targets-by-id/12XEmEww_Im1BFB1qWVpSURcEoMfrky2J/Gemini_Live_Thinking_Studio/Shared_Persona_Workspaces/🎈Love Coach"
       },
       "sessions_ledger": {
         "conversation_naming_formula": "Love_Coach_Conversation_v00X.json",
@@ -202,7 +221,7 @@
             "prompt": "استخرج الخيوط المتصلة والتناقضات بين المحادثات والملفات المرجعية المؤرضة في فولدر البيرسونا بخصوص: "
           }
         ],
-        "folder_path": "/content/drive/MyDrive/Gemini_Live_Thinking_Studio/Shared_Persona_Workspaces/Forensic_Investigator"
+        "folder_path": "/content/drive/.shortcut-targets-by-id/12XEmEww_Im1BFB1qWVpSURcEoMfrky2J/Gemini_Live_Thinking_Studio/Shared_Persona_Workspaces/Forensic_Investigator"
       },
       "sessions_ledger": {
         "conversation_naming_formula": "Forensic_Investigator_Conversation_v00X.json",
@@ -278,7 +297,7 @@
             "prompt": "صِغ لي وثيقة أكاديمية ومنهجية رفيعة المستوى بمستوى دكتوراه الأعمال العامة (PhD by Public Works - QAA Level 8) توثق الخبرة الميدانية وتفكك 'The Wounded Healer's Manifesto' حول المحاور التالية: "
           }
         ],
-        "folder_path": "/content/drive/MyDrive/Gemini_Live_Thinking_Studio/Shared_Persona_Workspaces/Wounded_Healer"
+        "folder_path": "/content/drive/.shortcut-targets-by-id/12XEmEww_Im1BFB1qWVpSURcEoMfrky2J/Gemini_Live_Thinking_Studio/Shared_Persona_Workspaces/Wounded_Healer"
       },
       "sessions_ledger": {
         "conversation_naming_formula": "Wounded_Healer_Conversation_v00X.json",
@@ -330,7 +349,7 @@
             "prompt": "ابدأ معي الآن جلسة تانترا سوماتية وطبق محرك الاستجابة الثلاثي (المرآة الجسدية -> قراءة الظل -> السؤال الحارق): "
           }
         ],
-        "folder_path": "/content/drive/MyDrive/Gemini_Live_Thinking_Studio/Shared_Persona_Workspaces/Tantric_Somatic_Coach",
+        "folder_path": "/content/drive/.shortcut-targets-by-id/12XEmEww_Im1BFB1qWVpSURcEoMfrky2J/Gemini_Live_Thinking_Studio/Shared_Persona_Workspaces/Tantric_Somatic_Coach",
         "strict_monad": false,
         "strict_tantra": true,
         "builtin": true
@@ -385,7 +404,7 @@
             "prompt": "حلل الفكرة التالية بعمق استراتيجي ونفسي شامل مع استعراض كافة الزوايا والاحتمالات: "
           }
         ],
-        "folder_path": "/content/drive/MyDrive/Gemini_Live_Thinking_Studio/Shared_Persona_Workspaces/Deep_Thinker",
+        "folder_path": "/content/drive/.shortcut-targets-by-id/12XEmEww_Im1BFB1qWVpSURcEoMfrky2J/Gemini_Live_Thinking_Studio/Shared_Persona_Workspaces/Deep_Thinker",
         "strict_monad": false,
         "strict_tantra": false,
         "builtin": true
@@ -393,11 +412,20 @@
       "sessions_ledger": {
         "conversation_naming_formula": "Deep_Thinker_Conversation_v00X.json",
         "last_session_slug": "Deep_Thinker_Conversation",
-        "last_version_number": 0,
-        "next_version_tag": "v001",
-        "next_session_filename_preview": "Deep_Thinker_Conversation_v001.json",
-        "total_sessions": 0,
-        "history": []
+        "last_version_number": 1,
+        "next_version_tag": "v002",
+        "next_session_filename_preview": "Deep_Thinker_Conversation_v002.json",
+        "total_sessions": 1,
+        "history": [
+          {
+            "file_name": "Deep_Thinker_Conversation_v001.json",
+            "file_path": "/content/drive/.shortcut-targets-by-id/12XEmEww_Im1BFB1qWVpSURcEoMfrky2J/Gemini_Live_Thinking_Studio/Shared_Persona_Workspaces/Deep_Thinker/Deep_Thinker_Conversation_v001.json",
+            "slug": "Deep_Thinker_Conversation",
+            "version_num": 1,
+            "version_tag": "v001",
+            "updated_at": "2026-10-30 00:30:39"
+          }
+        ]
       }
     },
     {
@@ -448,7 +476,7 @@
             "prompt": "__OPEN_CONTEXT_DRAWER__"
           }
         ],
-        "folder_path": "/content/drive/MyDrive/Gemini_Live_Thinking_Studio/Shared_Persona_Workspaces/Free_Chat_Model",
+        "folder_path": "/content/drive/.shortcut-targets-by-id/12XEmEww_Im1BFB1qWVpSURcEoMfrky2J/Gemini_Live_Thinking_Studio/Shared_Persona_Workspaces/Free_Chat_Model",
         "strict_monad": false,
         "strict_tantra": false,
         "builtin": true
