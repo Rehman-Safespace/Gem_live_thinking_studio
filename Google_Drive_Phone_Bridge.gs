@@ -1,37 +1,71 @@
 // ============================================================================
-// 📱 جسر ربط تطبيق الفون (GitHub Pages PWA) بـ Google Drive وفولدرات البيرسونات
-// الرابط النشط حالياً:
-// https://script.google.com/macros/s/AKfycbxVlbP4XYk-jZ_Z9ZwL2aMz1qTyvE9A3KGsVnvmy-ccGuNgMXFBd8V3jTFEMMPHlK80/exec
+// 📱 Google Drive Phone & Shared Account Bridge (v9.2)
+// Dedicated Hub Folder ID: 12XEmEww_Im1BFB1qWVpSURcEoMfrky2J (safespace.ch@gmail.com)
+// Sharing Link: https://drive.google.com/drive/folders/12XEmEww_Im1BFB1qWVpSURcEoMfrky2J?usp=sharing
 // ============================================================================
+const DEDICATED_HUB_FOLDER_ID = "12XEmEww_Im1BFB1qWVpSURcEoMfrky2J";
 const VAULT_FOLDER_NAME = "Conversation_Memory_Vault";
 const SOURCES_FOLDER_NAME = "MONAD_Sources";
 const WORKSPACES_ROOT_NAME = "Shared_Persona_Workspaces";
 
+function getDedicatedHubRoot() {
+  try {
+    return DriveApp.getFolderById(DEDICATED_HUB_FOLDER_ID);
+  } catch (err) {
+    return DriveApp.getRootFolder();
+  }
+}
+
 function getOrCreateFolder(name, parentFolder) {
-  const root = parentFolder || DriveApp;
+  const root = parentFolder || getDedicatedHubRoot();
   const it = root.getFoldersByName(name);
   return it.hasNext() ? it.next() : root.createFolder(name);
 }
 
 function resolvePersonaWorkspaceFolder(personaFolderName) {
-  const wsRoot = getOrCreateFolder(WORKSPACES_ROOT_NAME);
+  const hubRoot = getDedicatedHubRoot();
+  const wsRoot = getOrCreateFolder(WORKSPACES_ROOT_NAME, hubRoot);
   return getOrCreateFolder(personaFolderName, wsRoot);
 }
 
 function doGet(e) {
   const action = (e.parameter.action || "list_vault");
   const personaFolder = (e.parameter.persona_folder || "").trim();
-  const out = { status: "ok", action: action, items: [] };
+  const out = {
+    status: "ok",
+    action: action,
+    hub_folder_id: DEDICATED_HUB_FOLDER_ID,
+    owner_account: "safespace.ch@gmail.com",
+    items: [],
+    folders: []
+  };
+
+  const hubRoot = getDedicatedHubRoot();
+  if (action === "list_workspaces") {
+    const wsRoot = getOrCreateFolder(WORKSPACES_ROOT_NAME, hubRoot);
+    const fIt = wsRoot.getFolders();
+    while (fIt.hasNext()) {
+      const sub = fIt.next();
+      out.folders.push({ name: sub.getName(), id: sub.getId(), is_dir: true });
+    }
+    return ContentService.createTextOutput(JSON.stringify(out)).setMimeType(ContentService.MimeType.JSON);
+  }
 
   let folder;
   if (personaFolder) {
     folder = resolvePersonaWorkspaceFolder(personaFolder);
   } else {
-    folder = getOrCreateFolder(action === "list_sources" ? SOURCES_FOLDER_NAME : VAULT_FOLDER_NAME);
+    folder = getOrCreateFolder(action === "list_sources" ? SOURCES_FOLDER_NAME : VAULT_FOLDER_NAME, hubRoot);
+  }
+
+  const subFolders = folder.getFolders();
+  while (subFolders.hasNext()) {
+    const sf = subFolders.next();
+    out.folders.push({ name: sf.getName(), id: sf.getId(), is_dir: true });
   }
 
   const files = folder.getFiles();
-  while (files.hasNext() && out.items.length < 100) {
+  while (files.hasNext() && out.items.length < 120) {
     const f = files.next();
     out.items.push({
       file_id: f.getId(),
@@ -50,18 +84,18 @@ function doGet(e) {
 
 function doPost(e) {
   const data = JSON.parse(e.postData.contents || "{}");
+  const hubRoot = getDedicatedHubRoot();
   const personaFolder = (data.persona_folder || "").trim();
   let folder;
   if (personaFolder) {
     folder = resolvePersonaWorkspaceFolder(personaFolder);
   } else {
     const targetFolder = (data.target_folder === "sources") ? SOURCES_FOLDER_NAME : VAULT_FOLDER_NAME;
-    folder = getOrCreateFolder(targetFolder);
+    folder = getOrCreateFolder(targetFolder, hubRoot);
   }
   const fname = (data.file_name || ("Session_" + new Date().getTime() + ".json"));
   const contentStr = (typeof data.payload === "string") ? data.payload : JSON.stringify(data.payload || data, null, 2);
 
-  // تحديث الملف إن كان موجوداً بنفس الاسم (مثل PERSONA_CAPSULE_HUB.json) أو إنشاء ملف جديد
   const existing = folder.getFilesByName(fname);
   let file;
   if (existing.hasNext() && (fname.indexOf("PERSONA_CAPSULE_HUB.json") !== -1 || data.overwrite === true)) {
@@ -72,6 +106,7 @@ function doPost(e) {
   }
   return ContentService.createTextOutput(JSON.stringify({
     status: "ok",
+    hub_folder_id: DEDICATED_HUB_FOLDER_ID,
     file_id: file.getId(),
     file_name: file.getName(),
     persona_folder: personaFolder
