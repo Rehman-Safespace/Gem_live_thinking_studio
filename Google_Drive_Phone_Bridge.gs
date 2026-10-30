@@ -1,5 +1,5 @@
 // ============================================================================
-// 📱 جسر ربط تطبيق الفون (GitHub Pages PWA) بـ Google Drive وفولدرات البيرسونات (v9.3)
+// 📱 جسر ربط تطبيق الفون (GitHub Pages PWA) بـ Google Drive وفولدرات البيرسونات (v9.5)
 // ============================================================================
 const DEDICATED_HUB_FOLDER_ID = "12XEmEww_Im1BFB1qWVpSURcEoMfrky2J";
 const VAULT_FOLDER_NAME = "Conversation_Memory_Vault";
